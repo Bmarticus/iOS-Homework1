@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D3F5AD2A1F7B372B000B3224 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F5AD291F7B372B000B3224 /* main.m */; };
+		D3F5AD321F7B3C43000B3224 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F5AD311F7B3C43000B3224 /* Person.m */; };
+		D3F5AD351F7B3C61000B3224 /* MDCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F5AD341F7B3C61000B3224 /* MDCPerson.m */; };
+		D3F5AD381F7B3C81000B3224 /* MDCProfessor.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F5AD371F7B3C81000B3224 /* MDCProfessor.m */; };
+		D3F5AD3B1F7B3CA5000B3224 /* MDCStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F5AD3A1F7B3CA5000B3224 /* MDCStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		D3F5AD261F7B372B000B3224 /* BrianHW1_Polymorphism */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BrianHW1_Polymorphism; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F5AD291F7B372B000B3224 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3F5AD301F7B3C43000B3224 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D3F5AD311F7B3C43000B3224 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		D3F5AD331F7B3C61000B3224 /* MDCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCPerson.h; sourceTree = "<group>"; };
+		D3F5AD341F7B3C61000B3224 /* MDCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCPerson.m; sourceTree = "<group>"; };
+		D3F5AD361F7B3C81000B3224 /* MDCProfessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCProfessor.h; sourceTree = "<group>"; };
+		D3F5AD371F7B3C81000B3224 /* MDCProfessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCProfessor.m; sourceTree = "<group>"; };
+		D3F5AD391F7B3CA5000B3224 /* MDCStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCStudent.h; sourceTree = "<group>"; };
+		D3F5AD3A1F7B3CA5000B3224 /* MDCStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				D3F5AD291F7B372B000B3224 /* main.m */,
+				D3F5AD301F7B3C43000B3224 /* Person.h */,
+				D3F5AD311F7B3C43000B3224 /* Person.m */,
+				D3F5AD331F7B3C61000B3224 /* MDCPerson.h */,
+				D3F5AD341F7B3C61000B3224 /* MDCPerson.m */,
+				D3F5AD361F7B3C81000B3224 /* MDCProfessor.h */,
+				D3F5AD371F7B3C81000B3224 /* MDCProfessor.m */,
+				D3F5AD391F7B3CA5000B3224 /* MDCStudent.h */,
+				D3F5AD3A1F7B3CA5000B3224 /* MDCStudent.m */,
 			);
 			path = BrianHW1_Polymorphism;
 			sourceTree = "<group>";
@@ -119,6 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F5AD3B1F7B3CA5000B3224 /* MDCStudent.m in Sources */,
+				D3F5AD381F7B3C81000B3224 /* MDCProfessor.m in Sources */,
+				D3F5AD351F7B3C61000B3224 /* MDCPerson.m in Sources */,
+				D3F5AD321F7B3C43000B3224 /* Person.m in Sources */,
 				D3F5AD2A1F7B372B000B3224 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

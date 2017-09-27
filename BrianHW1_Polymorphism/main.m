@@ -7,11 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
+#import "MDCPerson.h"
+#import "MDCProfessor.h"
+#import "MDCStudent.h"
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        //create array for objects
+        NSMutableArray *arrayPersons = [[NSMutableArray alloc]init];
+        
+        
+        
+        
     }
     return 0;
 }
